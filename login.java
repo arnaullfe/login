@@ -32,6 +32,7 @@ public class login {
                 ordenarEdat(usuaris, sc, usuarisCreats, edat);
                 break;
             case 5:
+                System.out.println("Fins un altre!");
                 sortir = true;
                 break;
             }
