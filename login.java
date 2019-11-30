@@ -34,9 +34,7 @@ public class login {
             case 5:
                 sortir = true;
                 break;
-
             }
-
         }
     }
     //admin
@@ -47,7 +45,6 @@ public class login {
         System.console().readLine();
         newUser(sc, usuaris, usuarisCreats, edat, dades,registre);
     }
-    
     // selecció d'opció
     public static int opcio(Scanner sc, boolean sortir) {
         System.out.println("1- Crear un nou usuari");
